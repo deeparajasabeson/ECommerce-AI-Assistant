@@ -30,6 +30,28 @@ In short: the frontend is the customer-facing chat interface; the backend combin
 <img width="870" height="816" alt="image" src="https://github.com/user-attachments/assets/d51b3eb7-b5c9-4069-b557-3c484519f0c2" />
 <img width="633" height="885" alt="image" src="https://github.com/user-attachments/assets/02e585c0-bffe-4d4f-9d04-dc8625c3f9d7" />
 
+**In one Terminal for Front End Solution to Run ::**
+
+	1. To initialize the folder for front end code :
+		npm create vite@latest -- --template react-ts
+
+	http://localhost:5173/
+
+	2. To install tailwind css :
+	npm install tailwindcss @tailwindcss/vite
+
+	3. (*) Add tailwindcss() at line 7in vite.config.ts (main folder )
+
+	4. Add folders (components, constants, services, types,) inside src folder 
+	
+
+	5. "npm run dev" in frontend folder 
+	6. "uv run uvicorn main:app --reload" in backend folder 
+	
+<img width="1760" height="2166" alt="image" src="https://github.com/user-attachments/assets/6b496ee6-b57f-4b1c-91cd-2fc7c2ef941f" />
+
+**In another Terminal run the backend ::**
+uv run uvicorn main:app  --reload
 
 
 
