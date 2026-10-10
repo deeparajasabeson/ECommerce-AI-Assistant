@@ -1,0 +1,26 @@
+"""Configuration package for E-Commerce Multi-Agent System"""
+from .settings import (
+    AZURE_AI_FOUNDRY_ENDPOINT,
+    AZURE_AI_MODEL_DEPLOYMENT,
+    ECOMMERCE_API_BASE_URL,
+    ORDERS_API_URL,
+    PRODUCTS_API_URL,
+    SHIPPING_API_URL,
+    PAYMENTS_API_URL,
+    CUSTOMERS_API_URL,
+    API_KEY,
+    API_HEADERS,
+)
+
+__all__ = [
+    "AZURE_AI_FOUNDRY_ENDPOINT",
+    "AZURE_AI_MODEL_DEPLOYMENT",
+    "ECOMMERCE_API_BASE_URL",
+    "ORDERS_API_URL",
+    "PRODUCTS_API_URL",
+    "SHIPPING_API_URL",
+    "PAYMENTS_API_URL",
+    "CUSTOMERS_API_URL",
+    "API_KEY",
+    "API_HEADERS",
+]

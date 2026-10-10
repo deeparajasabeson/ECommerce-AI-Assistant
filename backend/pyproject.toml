@@ -1,0 +1,27 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Deepa Rajasabeson", email = "deeparajasabeson@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "azure-ai-agents>=1.1.0",
+    "azure-core>=1.41.0",
+    "azure-identity>=1.25.3",
+    "fastapi>=0.139.0",
+    "httpx>=0.28.1",
+    "psycopg[binary, pool]>=3.1",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+    "uvicorn>=0.50.0",
+]
+
+[project.scripts]
+backend = "backend:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
