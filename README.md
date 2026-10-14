@@ -1,3 +1,4 @@
+<img width="6410" height="12649" alt="diagram" src="https://github.com/user-attachments/assets/6703df48-bc10-4629-9dd6-c90593b990fc" />
 # ECommerce-AI-Assistant
 This is a chat-based e-commerce assistant developed in Python (FastAPI) with React for Front End, Azure Foundry for Agents and Models Deployment. 
 The React frontend sends a customer’s message to a FastAPI backend, where an Azure AI Foundry orchestrator routes it to a specialist agent. Those agents can call the backend’s REST endpoints to retrieve or update store data in PostgreSQL.
